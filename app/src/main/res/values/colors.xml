@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <!-- Primary Colors -->
+        <color name="colorPrimary">#6200EE</color>
+        <color name="colorPrimaryDark">#3700B3</color>
+        <color name="colorAccent">#03DAC5</color>
+
+        <!-- Background Colors -->
+        <color name="colorBackground">#F5F5F5</color>
+        <color name="colorTextPrimary">#000000</color>
+        <color name="colorTextSecondary">#757575</color>
+
+        <!-- Button Colors -->
+        <color name="colorButtonText">#FFFFFF</color>
+        <color name="colorButtonBackground">#6200EE</color>
+
+        <!-- Error Colors -->
+        <color name="colorError">#D32F2F</color>
+
+        <!-- BMI Result Colors -->
+        <color name="colorUnderweight">#FFAB00</color>
+        <color name="colorNormal">#4CAF50</color>
+        <color name="colorOverweight">#FF5722</color>
+        <color name="colorObese">#D32F2F</color>
+
+</resources>

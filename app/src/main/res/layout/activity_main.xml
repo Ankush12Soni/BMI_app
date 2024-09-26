@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_calculator"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/enter_weight"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/enter_height"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textColorHint="#757575"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_bmi"
+        android:textStyle="bold"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFF"
+        android:padding="12dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
